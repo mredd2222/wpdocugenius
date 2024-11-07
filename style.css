@@ -1,0 +1,66 @@
+.toplevel_page_theme-documentation .documentation-wrapper {
+    overflow-x: hidden;
+}
+
+.documentation-wrapper .wrap h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.documentation-content .wrap p {
+    font-size: 16px;
+    color: #555;
+}
+
+.theme-functions {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.theme-functions h3 {
+    color: #0073aa;
+    margin-bottom: 10px;
+}
+
+.function-doc {
+    padding: 15px;
+    margin-bottom: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.function-doc strong {
+    color: #333;
+}
+
+.params {
+    padding-left: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+.params li {
+    margin-bottom: 5px;
+}
+
+#loading-indicator {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f3f3f3;
+    border: 1px solid #ccc;
+    padding: 20px;
+    z-index: 1000;
+    text-align: center;
+    font-size: 16px;
+}
+
+#refresh-docs, #export-pdf {
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
